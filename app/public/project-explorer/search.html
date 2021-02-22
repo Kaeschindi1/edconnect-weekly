@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project Explorer - Search</title>
+        <link rel="stylesheet" href="/app/public/project-explorer/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Project Explorer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+                    <button class="btn  btn btn-light my-2 my-sm-0" type="submit">Search</button>
+                    <input type="submit">
+                </form>                
+            </div>       
+        </nav>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <h3>Project Gallery</h3>
+                </div>
+                <div class="container bg-light p-3">
+                    <form name="searchForm">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input class="form-control" type="text" name="searchTerm" placeholder="Search project name, authors, abstract, tags">  
+                                </div>
+                                <div class="col">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">Search By</div>
+                                        </div>
+                                        <select class="form-control form-select" name="searchType">
+                                            <option selected>Choose...</option>
+                                            <option value="Name">Name</option>
+                                            <option value="Authors">Authors</option>
+                                            <option value="Abstract">Abstract</option>
+                                            <option value="Tags">Tags</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <p><strong>All Projects</strong>&nbsp; (0 results)</p>
+                </div>
+                    <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="card text-justify" style="margin:0px 10px 0px 0px;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:blue;">Project Title</h5>
+                                <p class="card-text"> Author 1, Author 2</p>
+                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                                    Lorem ipsum may be used as a placeholder before final copy is available.
+                                </p>
+                                <p style="color: blue;">#html &nbsp; &nbsp; #css &nbsp; &nbsp; #javascript</p>
+                            </div>
+                        </div>
+                        <div class="card text-justify" style="margin:0px 10px 0px 0px;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:blue;">Project Title</h5>
+                                <p class="card-text"> Author 1, Author 2</p>
+                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                                    Lorem ipsum may be used as a placeholder before final copy is available.
+                                </p>
+                                <p style="color: blue;">#html &nbsp; &nbsp; #css &nbsp; &nbsp; #javascript</p>
+                            </div>
+                        </div>
+                        <div class="card text-justify" style="margin:0px 10px 0px 0px;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:blue;">Project Title</h5>
+                                <p class="card-text"> Author 1, Author 2</p>
+                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                                    Lorem ipsum may be used as a placeholder before final copy is available.
+                                </p>
+                                <p style="color: blue;">#html &nbsp; &nbsp; #css &nbsp; &nbsp; #javascript</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </main>
+        <footer>
+            <div class="container bg-light">
+                    <p style="text-align:right;">Project Explorer &copy;2020 - Edconnect</p>
+            </div>
+        </footer>
+    </body>
+</html>
