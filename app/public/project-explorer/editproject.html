@@ -52,7 +52,7 @@
                             </div>
                         </div>
                         <div class="col-md-2 p-3">
-                            <button class="btn btn-primary btn-sm" href="editproject.html" role="button">Edit Project</button>
+                            <a class="btn btn-primary btn-sm" href="editproject.html" role="button">Edit Project</a>
                         </div>
                     </div>
                     
@@ -69,25 +69,25 @@
                                     <div class="form-group">
                                         <div class="form-row">
                                             <label for="name">Project Name</label><br>
-                                            <input type="text" class="form-control" placeholder="Project 1" name="name">
+                                            <input type="text" id="name" class="form-control" placeholder="Project 1" name="name">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="form-row">
                                             <label for="abstract">Project abstract</label><br>
-                                            <textarea class="form-control" name="abstract" placeholder="Project 1 is a very interesting project"></textarea>
+                                            <textarea class="form-control" name="abstract" id="abstract" placeholder="Project 1 is a very interesting project"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="form-row">
                                             <label for="authors">Author(s)</label><br>
-                                            <input type="text" class="form-control" placeholder="Ade Chris" name="authors">
+                                            <input type="text" class="form-control" placeholder="Ade Chris" id="authors" name="authors">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="form-row">
                                             <label for="tags">Tag(s)</label><br>
-                                            <input type="text" class="form-control" placeholder="#web" name="tags">
+                                            <input type="text" class="form-control" placeholder="#web" id="tags" name="tags">
                                         </div>
                                     </div> 
                                     <div class="form-group">
@@ -103,7 +103,7 @@
                             <div class="row">
                                 <form>
                                     <div class="custom-file" style="width: 24rem;">
-                                        <input type="file" class="custom-file-input form-control" id="customFileLang" lang="es">
+                                        <input type="file" class="custom-file-input form-control" name="customFileLang" id="customFileLang" lang="es">
                                         <label class="custom-file-label" for="customFileLang">Click to open the file browser</label>
                                       </div>
                                 </form>
